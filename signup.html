@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome page</title>
+    <link rel="stylesheet" href="assets/styles/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <a href="index.html">Your Logo</a>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="container">
+          <div class="form">
+            <span class="Welcome">Welcome !</span>
+            <div class="signin">
+              <h1>Sign in to</h1>
+              <p>Lorem Ipsum is simply</p>
+            </div>
+            <form method="post">
+              <label for="email">Email</label><br>
+              <input type="email" placeholder="Enter Your Email">
+              <label for="Username">User name</label> <br />
+              <input
+                type="text"
+                placeholder="Enter your user name"
+                required
+                autofocus
+              />
+              <br />
+              <label for="Password">Password</label><br />
+              <input type="password" id="Password" placeholder="Password" required />
+              <br />
+              <label for="Password">Confrim Password</label><br />
+              <input type="password" placeholder="Confrim your Password" required />
+              <div class="options">
+                <input type="checkbox" name="Rememebr me" id="Rememebr-me" />
+                <label for="Rememebr-me">Rememebr me</label>
+                <a href="#">Forget me?</a> <br />
+              </div>
+              <input type="submit" class="Login-btn" value="Login" name="Login"  />
+            </form>
+            <p class="have-an-accout">
+              Do you have an account? <a href="signup.html">Register</a>
+            </p>
+          </div>
+          <div class="image">
+            <img src="assets/images/small-team.png" alt="small team" />
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

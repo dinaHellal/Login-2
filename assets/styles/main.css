@@ -115,6 +115,7 @@ section form .options a {
   font-weight: 300;
   color: var(--gray);
 }
+
 section .have-an-accout {
   color: var(--gray);
 }
@@ -123,11 +124,12 @@ section .have-an-accout a {
   font-size: 16px;
   font-weight: 600;
 }
-section form .submit-btn {
+section form .login-btn {
   color: var(--white);
   background-color: var(--black);
   font-size: 16px;
   font-weight: 500;
+  border-radius: 6px;
 }
 section .image {
   width: 50%;
