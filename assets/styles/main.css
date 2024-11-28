@@ -129,3 +129,11 @@ section form .submit-btn {
   font-size: 16px;
   font-weight: 500;
 }
+section .image {
+  width: 50%;
+}
+@media (max-width: 991px) {
+  section .image {
+    display: none;
+  }
+}
